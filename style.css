@@ -128,7 +128,7 @@ footer.tabs a.tab.active span { position: absolute; top: -20px; left: 0; width: 
 
 .hospitalContainer { float: left; width: 100%; height: 275px; position: relative; overflow: hidden; }
 .hospitalContainer > img { position: absolute; top: 0; left: 0; width: auto; height: 100%; z-index: 5; }
-.hospitalContainer a.feedback { position: absolute; z-index: 10; background: #74aaaa url(images/icon_background.png) repeat; background-size: 155px 105px; -webkit-background-size: 155px 105px; -moz-background-size: 155px 105px; -o-background-size: 155px 105px; padding: 12px; border-radius: 6px; width: 80px; font-size: 16px; color: #fff; text-decoration: none; line-height: 20px; text-align: center; left: 25px; top: 75px; }
+.hospitalContainer a.feedback { position: absolute; z-index: 10; background: #74aaaa url(images/icon_background.png) repeat; background-size: 155px 105px; -webkit-background-size: 155px 105px; -moz-background-size: 155px 105px; -o-background-size: 155px 105px; padding: 12px; border-radius: 6px; width: 80px; font-size: 16px; color: #fff; text-decoration: none; line-height: 20px; text-align: center; left: 25px; top: 35px; }
 
 .hospitalContainer a.feedback span.text { font-family: 'OpenBold'; }
 .hospitalContainer a.feedback span.arrow { width: 0; height: 0; border-top: 12px solid transparent; border-bottom: 12px solid transparent; border-right: 12px solid #fff; position: absolute; top: 20px; left: -12px; }
@@ -155,6 +155,8 @@ footer.tabs a.tab.active span { position: absolute; top: -20px; left: 0; width: 
 .contentArea ul li a { color: #3A4353; text-decoration: underline; }
 .contentArea ul li:before { content: '■'; color: #2D7FAC; margin-right: 5px; }
 .contentArea h4 { margin: 30px 0 30px 0; background: url(images/hospital_download_icon.png) no-repeat left center; padding: 0 0 0 30px; }
+.contentArea h4.link { background-image: url(images/hospital_link_icon.png);}
+.contentArea h4.twitter { background-image: url(images/hospital_twitter_icon.png);}
 .contentArea h4 a { color: #2D7FAC; font-size: 16px; text-decoration: none; }
 .contentArea h4 a:hover { border-bottom: 1px dotted #2D7FAC; }
 .contentArea h4.google { background: url(images/hospital_google_maps_icon.png) no-repeat left center; }
@@ -241,7 +243,7 @@ body.feedback { background: #74aaaa url(images/icon_background.png) repeat; back
 .north-tees-hospital footer.tabs a.tab.active { background-color: #8b4583; }
 .sunderland-royal-hospital footer.tabs a.tab.active { background-color: #1b3566; }
 .west-cumberland-hospital footer.tabs a.tab.active { background-color: #c1ac93; }
-.wansbeck-general-hospital footer.tabs a.tab.active { background-color: #74afaf; }
+.cramlington-emergency-care-hospital footer.tabs a.tab.active { background-color: #74afaf; }
 .south-tyneside-hospital footer.tabs a.tab.active { background-color: #408ac9; }
 
 .cumberland-infirmary-hospital footer.tabs a.tab.active span { border-bottom-color: #1a3566; }
@@ -253,7 +255,7 @@ body.feedback { background: #74aaaa url(images/icon_background.png) repeat; back
 .north-tees-hospital footer.tabs a.tab.active span { border-bottom-color: #8b4583; }
 .sunderland-royal-hospital footer.tabs a.tab.active span { border-bottom-color: #1b3566; }
 .west-cumberland-hospital footer.tabs a.tab.active span { border-bottom-color: #c1ac93; }
-.wansbeck-general-hospital footer.tabs a.tab.active span { border-bottom-color: #74afaf; }
+.cramlington-emergency-care-hospital footer.tabs a.tab.active span { border-bottom-color: #74afaf; }
 .south-tyneside-hospital footer.tabs a.tab.active span { border-bottom-color: #408ac9; }
 
 .feedback.cumberland-infirmary-hospital #feedbackForm input[type=submit], .feedback.cumberland-infirmary-hospital #feedbackForm a#nextQuestions { color: #1a3566; }
@@ -265,7 +267,7 @@ body.feedback { background: #74aaaa url(images/icon_background.png) repeat; back
 .feedback.north-tees-hospital #feedbackForm input[type=submit], .feedback.north-tees-hospital #feedbackForm a#nextQuestions { color: #8b4583; }
 .feedback.sunderland-royal-hospital #feedbackForm input[type=submit], .feedback.sunderland-royal-hospital #feedbackForm a#nextQuestions { color: #1b3566; }
 .feedback.west-cumberland-hospital #feedbackForm input[type=submit], .feedback.west-cumberland-hospital #feedbackForm a#nextQuestions { color: #c1ac93; }
-.feedback.wansbeck-general-hospital #feedbackForm input[type=submit], .feedback.wansbeck-general-hospital #feedbackForm a#nextQuestions { color: #74afaf; }
+.feedback.cramlington-emergency-care-hospital #feedbackForm input[type=submit], .feedback.cramlington-emergency-care-hospital #feedbackForm a#nextQuestions { color: #74afaf; }
 .feedback.south-tyneside-hospital #feedbackForm input[type=submit], .feedback.south-tyneside-hospital #feedbackForm a#nextQuestions { color: #408ac9; }
 
 .feedback.cumberland-infirmary-hospital .title h1 { color: #1a3566; }
@@ -277,7 +279,7 @@ body.feedback { background: #74aaaa url(images/icon_background.png) repeat; back
 .feedback.north-tees-hospital .title h1 { color: #8b4583; }
 .feedback.sunderland-royal-hospital .title h1 { color: #1b3566; }
 .feedback.west-cumberland-hospital .title h1 { color: #c1ac93; }
-.feedback.wansbeck-general-hospital .title h1 { color: #74afaf; }
+.feedback.cramlington-emergency-care-hospital .title h1 { color: #74afaf; }
 .feedback.south-tyneside-hospital .title h1 { color: #408ac9; }
 
 .feedback.cumberland-infirmary-hospital .title h3 { color: #1a3566; }
@@ -289,7 +291,7 @@ body.feedback { background: #74aaaa url(images/icon_background.png) repeat; back
 .feedback.north-tees-hospital .title h3 { color: #8b4583; }
 .feedback.sunderland-royal-hospital .title h3 { color: #1b3566; }
 .feedback.west-cumberland-hospital .title h3 { color: #c1ac93; }
-.feedback.wansbeck-general-hospital .title h3 { color: #74afaf; }
+.feedback.cramlington-emergency-care-hospital .title h3 { color: #74afaf; }
 .feedback.south-tyneside-hospital .title h3 { color: #408ac9; }
 
 body.feedback.cumberland-infirmary-hospital { background-color: #1a3566; }
@@ -301,7 +303,7 @@ body.feedback.royal-victoria-infirmary-hospital { background-color: #e54a66; }
 body.feedback.north-tees-hospital { background-color: #8b4583; }
 body.feedback.sunderland-royal-hospital { background-color: #1b3566; }
 body.feedback.west-cumberland-hospital { background-color: #c1ac93; }
-body.feedback.wansbeck-general-hospital { background-color: #74afaf; }
+body.feedback.cramlington-emergency-care-hospital { background-color: #74afaf; }
 body.feedback.south-tyneside-hospital { background-color: #408ac9; }
 
 .cumberland-infirmary-hospital .hospitalContainer a.feedback { background-color: #1a3566; }
@@ -313,7 +315,7 @@ body.feedback.south-tyneside-hospital { background-color: #408ac9; }
 .north-tees-hospital .hospitalContainer a.feedback { background-color: #8b4583; }
 .sunderland-royal-hospital .hospitalContainer a.feedback { background-color: #1b3566; }
 .west-cumberland-hospital .hospitalContainer a.feedback { background-color: #c1ac93; }
-.wansbeck-general-hospital .hospitalContainer a.feedback { background-color: #74afaf; }
+.cramlington-emergency-care-hospital .hospitalContainer a.feedback { background-color: #74afaf; }
 .south-tyneside-hospital .hospitalContainer a.feedback { background-color: #408ac9; }
 
 .cumberland-infirmary-hospital a.feedback span.arrow { border-right-color: #1a3566; }
@@ -325,7 +327,7 @@ body.feedback.south-tyneside-hospital { background-color: #408ac9; }
 .north-tees-hospital a.feedback span.arrow { border-right-color: #8b4583; }
 .sunderland-royal-hospital a.feedback span.arrow { border-right-color: #1b3566; }
 .west-cumberland-hospital a.feedback span.arrow { border-right-color: #c1ac93; }
-.wansbeck-general-hospital a.feedback span.arrow { border-right-color: #74afaf; }
+.cramlington-emergency-care-hospital a.feedback span.arrow { border-right-color: #74afaf; }
 .south-tyneside-hospital a.feedback span.arrow { border-right-color: #408ac9; }
 
 @media screen and (min-width: 350px) {
