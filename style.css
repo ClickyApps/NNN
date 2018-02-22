@@ -124,6 +124,7 @@ footer.tabs a.tab.active span { position: absolute; top: -20px; left: 0; width: 
 .hospital-list .hospitals .hospital.nine { background-color: #c1ac93; }
 .hospital-list .hospitals .hospital.ten { background-color: #74afaf; }
 .hospital-list .hospitals .hospital.eleven { background-color: #408ac9; }
+.hospital-list .hospitals .hospital.twelve { background-color: #d5a007; }
 .hospital-list .hospitals .hospital.nine p { font-size: 14px; }
 
 .hospitalContainer { float: left; width: 100%; height: 275px; position: relative; overflow: hidden; }
