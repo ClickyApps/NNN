@@ -61,6 +61,7 @@
 	<gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024" />
 	
 	<!-- Set Icons -->
+	<icon src="Icon-40.png" gap:platform="ios" width="40" height="40" />
 	<icon src="Icon.png" gap:platform="ios" width="57" height="57" />
 	<icon src="Icon-72.png" gap:platform="ios" width="72" height="72" />
 	<icon src="Icon@2x.png" gap:platform="ios" width="114" height="114" />
