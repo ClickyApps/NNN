@@ -52,7 +52,7 @@
 	<access origin="*" />
 	<preference name="permissions" value="none"/>
 
-	<preference name="phonegap-version" value="3.3.0" />  
+	<preference name="phonegap-version" value="3.1.0" />  
 	
 	<!-- Set Splash Screens -->
 	<gap:splash src="splash.png" />
