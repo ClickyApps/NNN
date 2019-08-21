@@ -4,8 +4,9 @@
 	xmlns:gap   = "http://phonegap.com/ns/1.0"
 	id          = "uk.org.nornet.app"
 	version     = "1.2.3"
-	android-versionCode="26"
+	android-versionCode="12"
 	>
+	<preference name="android-minSdkVersion" value="26" />
 
 	<!-- App Details That Are Shown on the iOS App Store -->
 	<name>NNN</name>
