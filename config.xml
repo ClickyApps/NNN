@@ -6,8 +6,8 @@
 	version     = "1.2.4"
 	android-versionCode="13"
 	>
-	<preference name="android-minSdkVersion"  value="16" />
-	<preference name="android-targetSdkVersion"  value="26" />
+	<preference name="android-minSdkVersion"  value="12" />
+	<preference name="android-targetSdkVersion"  value="28" />
 
 	<!-- App Details That Are Shown on the iOS App Store -->
 	<name>NNN</name>
