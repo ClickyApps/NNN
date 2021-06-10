@@ -1,0 +1,17 @@
+{
+  "name": "nnn",
+  "version": "1.2.4",
+  "description": "Information about the Northern Neonatal Network of hospitals. This app includes information for families of premature and sick babies, with key information about each hospital and unit available.",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClickyApps/NNN.git"
+  },
+  "author": "Clicky Media",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClickyApps/NNN/issues"
+  },
+  "homepage": "https://github.com/ClickyApps/NNN#readme"
+}

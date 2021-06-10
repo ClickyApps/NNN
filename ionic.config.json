@@ -1,0 +1,7 @@
+{
+    "name": "nnn",
+    "type": "custom",
+    "integrations": {
+      "cordova": {}
+    }
+  }
